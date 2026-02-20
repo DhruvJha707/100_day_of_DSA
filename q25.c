@@ -64,7 +64,7 @@ int main() {
             printf("%d ", matrix[top][j]);
         }
         top++;
-
+ 
         // Traverse top to bottom (right column)
         for (int i = top; i <= bottom; i++) {
             printf("%d ", matrix[i][right]);
